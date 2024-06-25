@@ -1,0 +1,340 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+/* Start-nav */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-image: url("blue_bg.png");
+    padding: 0px 100px 0px 70px;
+}
+
+.nav-lt img {
+    width: 115px;
+    height: 65px;
+    margin-right: -40px;
+}
+
+.nav-lt {
+    display: flex;
+    align-items: center;
+}
+
+.nav-lt a {
+    text-decoration: none;
+    align-self: center;
+    color: #414040aa;
+    font-weight: 700;
+    padding-right: 50px;
+}
+
+.nav-rt button {
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* End-nav */
+
+/* ============================================ */
+
+/* start-banner */
+
+.banner {
+    background-image: url(blue_bg.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom;
+    height: 560px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    position: relative;
+}
+
+.bannr-lt {
+    margin-top: -140px;
+}
+
+.bannr-lt .banner-large-heading {
+    font-size: 54px;
+    color: #000000af;
+    font-weight: 700;
+    overflow-wrap: break-word;
+}
+
+.bannr-lt .banner-large-heading span {
+    color: rgb(99, 53, 143);
+}
+
+.bannr-lt .banner-small-heading {
+    font-size: 24px;
+    color: #414040aa;
+    overflow-wrap: break-word;
+    margin-top: 20px;
+}
+
+.bannr-rt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: 100%;
+    padding: 0px 100px 0px 0px;
+}
+
+#person-banner {
+    position: absolute;
+    right: 186px;
+    top: -28px;
+    width: 285px;
+    height: 445px;
+    z-index: 2;
+}
+
+#back-banner {
+    position: absolute;
+    top: -80px;
+    right: -50px;
+    width: 700px;
+    height:700px;
+    z-index: 1;
+}
+
+#clouds-banner {
+    position: absolute;
+    width: 417px;
+    height: 239px;
+    right: 112px;
+    top: 325px;
+    z-index: 3;
+}
+
+.waves img {
+    width: 100%;
+    position: absolute;
+    bottom: -120px;
+    left: -300px;
+    z-index: 4;
+}
+
+/* End-banner */
+
+/* ============================================ */
+
+/* Start-body1 */
+
+.body1 {
+    padding: 150px 100px 20px 100px ;
+    position: relative;
+    height: 660px;
+    width: 100%;
+}
+
+.body1-lt {
+    text-align: center;
+    position: absolute;
+    left: 100px;
+    top: 150px;
+
+}
+
+.body1-mid {
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
+
+.body1-rt {
+    text-align: center;
+    position: absolute;
+    right: 100px;
+    bottom: 20px;
+}
+
+#discounts {
+    width: 200px;
+    height: 100px;
+}
+
+.why-choose {
+    position: absolute;
+    left: 100px;
+    bottom: 20px;
+    background-image: url("why_kudzoka_bg.png");
+    background-size: 280px;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    height: 280px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    overflow-wrap: break-word;
+}
+
+.why-choose ul {
+    margin-left: 10px;
+}
+
+.why-choose span {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.body1 img {
+    width: 130px;
+    height: 100px;
+    z-index: 2;
+}
+
+.cut img {
+    width: 75%;
+    height: 410px;
+    position: absolute;
+    z-index: -1;
+    left: 240px;
+    top: 90px;
+}
+
+.body1 h6 {
+    color: #00000080;
+    font-size: 16px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.body1 p {
+    color: #414040aa;
+}
+
+/* End-body1 */
+
+/* ============================================ */
+
+/* Start-body2 */
+
+.body2 {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 100px 300px 0px 300px;
+}
+
+.body2 img {
+    width: 130px;
+    height: 130px;
+}
+
+#round {
+    height: 280px;
+    width: 280px;
+}
+
+.body2-mid {
+    text-align: center;
+}
+
+.body2 h6 {
+    color: #00000080;
+    font-size: 16px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.body2 p {
+    color: #414040aa;
+}
+
+/* End-body2 */
+
+/* ============================================ */
+
+/* Start-Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('Group 1131.png');
+    background-size: 115% 180%;
+    background-position: 40% 30%;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-left: 100px;
+}
+
+.footer-plays {
+    display: flex;
+    margin-top: 200px;
+}
+
+.icon-store img {
+    width: 15px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.store-hint {
+    font-size: 7px;
+}
+
+.store-hint span {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.button-app {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    width: 100px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.footer-icons {
+    margin: 20px 0px;
+}
+
+.footer-icons i {
+    font-size: 24px;
+    color: white;
+    margin-right: 5px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    font-size: 13px;
+}
+
+.footer-rt img {
+    width: 585px;
+    height: 445px;
+    margin-right: 110px;
+}
+/* End-Footer */
+
